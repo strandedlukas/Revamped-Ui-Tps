@@ -1,0 +1,26 @@
+local DiscordLib = loadstring(game:HttpGet"https://raw.githubusercontent.com/dawid-scripts/UI-Libs/main/discord%20lib.txt")()
+
+local win = DiscordLib:Window("NOBA Script Library | made by lukas")
+
+local serv = win:Server("⚽️", "")
+
+local btns = serv:Channel("⚽️ Library (reaches) ⚽️")
+
+btns:Button("Noba classic reach by lukas | normal script", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/strandedlukas/Tpsguiscript/main/Tps%20gui"))();
+DiscordLib:Notification("Notification", "Enjoy", "Okay!")
+end)
+
+btns:Button("Noba unleaked free script", function()
+  loadstring(game:HttpGet("https://raw.githubusercontent.com/dvd77700000/Free/main/FreeScript"))()
+DiscordLib:Notification("Notification", "Noba unleaked executed", "Okay!")
+end)
+
+btns:Button("Fps booster by strandedlukas", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/strandedlukas/Fps-booster-/main/Fps%20booster"))();
+DiscordLib:Notification("Notification", "inf jump", "Okay!")
+end)
+
+serv:Channel("by .strandedlukas #0001")
+
+win:Server("Main", "http://www.roblox.com/asset/?id=6031075938")
